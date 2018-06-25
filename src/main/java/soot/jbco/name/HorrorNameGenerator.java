@@ -31,14 +31,14 @@ package soot.jbco.name;
 public class HorrorNameGenerator extends AbstractNameGenerator implements NameGenerator {
 
   private static final char stringChars[][] = { { 'S', '5', '$' }, // latin s, five, dollar sign
-      { 'l', '1', 'I', 'Œô' }, // l, one, I, greek iota
-      { '0', 'O', '–û', 'Œü', '’ï' }, // zero, english O, russian O, greek omicron, armenian ’ï
-      { 'o', '–æ', 'Œø' }, // english o, russian o and greek omicron
-      { 'T', '–¢', 'Œ§' }, // english T, russian T, greek tau
-      { 'H', '–ù', 'Œó' }, // english, russian, greek
-      { 'E', '–ï', 'Œï' }, // english, russian, greek
-      { 'P', '–†', 'Œ°' }, // english, russian, greek
-      { 'B', '–í', 'Œí' }, // english, russian, greek
+      { 'l', '1', 'I', 'Œ' }, // l, one, I, greek iota
+      { '0', 'O', '–', 'Œ', '’' }, // zero, english O, russian O, greek omicron, armenian ’ï
+      { 'o', '–', 'Œ' }, // english o, russian o and greek omicron
+      { 'T', '–', 'Œ' }, // english T, russian T, greek tau
+      { 'H', '–', 'Œ' }, // english, russian, greek
+      { 'E', '–', 'Œ' }, // english, russian, greek
+      { 'P', '–', 'Œ' }, // english, russian, greek
+      { 'B', '–', 'Œ' }, // english, russian, greek
       { '_' } };
 
   @Override
